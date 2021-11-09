@@ -8,10 +8,11 @@ function combine(input1: number | string, input2:number | string) {
   }
 
   return result;
+
 }
 
 const combinedAges = combine(23,33);
 const combinedName = combine('aris','danang')
 
 console.log(combinedAges);
-console.log(combinedName);
+// console.log(combinedName);
